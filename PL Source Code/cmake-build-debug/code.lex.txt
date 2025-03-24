@@ -1,0 +1,23 @@
+Keyword(int)
+Identifier(myVar)
+Keyword(is)
+IntConst (42)
+EndOfLine
+Keyword(text)
+Identifier(myText)
+Keyword(is)
+String(Hello, world! ou)
+EndOfLine
+Keyword(loop)
+IntConst (3)
+Keyword(times)
+LeftCurlyBracket
+Keyword(write)
+Identifier(myText)
+Comma
+Identifier(myVar)
+EndOfLine
+RightCurlyBracket
+Keyword(write)
+String(hello)
+EndOfLine

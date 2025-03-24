@@ -1,0 +1,7 @@
+int myVar is 42 .
+text myText is "Hello, world! ou" .
+loop 3 times {
+    write myText , myVar .
+
+    }
+write "hello".
