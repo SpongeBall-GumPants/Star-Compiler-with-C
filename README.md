@@ -10,24 +10,14 @@
     
 5. Sample Program
     
-6. Project Structure
+6. Contributing
     
-7. Contributing
-    
-8. License
+7. License
 ---
 
 ## Project Overview
 
 This project implements a two-phase compiler/interpreter for the **Star Programming Language** in C. It consists of a **lexical analysis** stage, which tokenizes `.sta` source files, and a **semantic analysis & execution** stage, which interprets the token stream, manages symbol tables for integers and text, and supports fixed-count loops, basic arithmetic/string operations, and console I/O.
-
-## File Structure
-
-text
-
-CopyEdit
-
-`. └── PL Source Code                # Root of all source files :contentReference[oaicite:0]{index=0}     ├── CMakeLists.txt           # CMake build script :contentReference[oaicite:1]{index=1}     ├── main.c                   # Lexer + interpreter implementation :contentReference[oaicite:2]{index=2}     ├── code.sta.txt             # Sample SVPL source program     └── cmake-build-debug/       # IDE–generated build directory (can be ignored or removed)         ├── code.sta.txt         # Copied here for debugging         ├── code.lex.txt         # Generated token file         └── untitled2.exe        # Compiled executable`
 
 ## Prerequisites
 
